@@ -1,0 +1,27 @@
+{
+  "name": "commonjs-soy",
+  "version": "0.0.1",
+  "description": "Compile Soy/Closure Templates and convert to CommonJS modules.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "make -j1 prepublish",
+    "test": "npm run prepublish && node test"
+  },
+  "keywords": [
+    "soy",
+    "soy templates",
+    "closure templates",
+    "clientside templating",
+    "closure"
+  ],
+  "author": "Matt Powell",
+  "license": "MIT",
+  "dependencies": {
+    "escodegen": "^1.8.0",
+    "esprima": "^2.7.2",
+    "java": "^0.6.1"
+  },
+  "devDependencies": {
+    "closure-templates": "^20151008.0.0"
+  }
+}
