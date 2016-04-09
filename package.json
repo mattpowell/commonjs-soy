@@ -18,6 +18,10 @@
   ],
   "author": "Matt Powell",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mattpowell/commonjs-soy.git"
+  },
   "dependencies": {
     "escodegen": "^1.8.0",
     "esprima": "^2.7.2",
