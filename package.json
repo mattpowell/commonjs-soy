@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "prepublish": "make -j1 prepublish",
-    "test": "npm run prepublish && node test"
+    "test": "npm run prepublish && node test",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover test/index.js",
+    "codecov": "npm run coverage && cat coverage/lcov.info | ./node_modules/codecov/bin/codecov"
   },
   "keywords": [
     "soy",
@@ -22,6 +24,8 @@
     "java": "^0.6.1"
   },
   "devDependencies": {
-    "closure-templates": "^20151008.0.0"
+    "closure-templates": "^20151008.0.0",
+    "codecov": "^1.0.1",
+    "istanbul": "^0.4.3"
   }
 }

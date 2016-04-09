@@ -1,7 +1,4 @@
 language: node_js
-jdk:
-  - oraclejdk8
-  - oraclejdk7
 env:
   - NODE_VERSION=4 CC=clang CXX=clang++
   - NODE_VERSION="0.12"
@@ -12,3 +9,5 @@ before_script:
   - npm install
 script:
   - npm test
+after_script:
+  - npm run codecov
