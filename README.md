@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mattpowell/commonjs-soy.svg?branch=master)](https://travis-ci.org/mattpowell/commonjs-soy) [![codecov.io](https://codecov.io/github/mattpowell/commonjs-soy/coverage.svg?branch=master)](https://codecov.io/github/mattpowell/commonjs-soy?branch=master)
+[![Build Status](https://travis-ci.org/mattpowell/commonjs-soy.svg?branch=master)](https://travis-ci.org/mattpowell/commonjs-soy) [![codecov](https://codecov.io/gh/mattpowell/commonjs-soy/branch/master/graph/badge.svg)](https://codecov.io/gh/mattpowell/commonjs-soy)
 #commonjs-soy
 commonjs-soy is a tool for compiling Soy/Closure Templates and converting them to CommonJs modules.
 
