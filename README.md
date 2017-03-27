@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/mattpowell/commonjs-soy.svg?branch=master)](https://travis-ci.org/mattpowell/commonjs-soy) [![codecov](https://codecov.io/gh/mattpowell/commonjs-soy/branch/master/graph/badge.svg)](https://codecov.io/gh/mattpowell/commonjs-soy)
-#commonjs-soy
-commonjs-soy is a tool for compiling Soy/Closure Templates and converting them to CommonJs modules.
+# commonjs-soy
+> commonjs-soy is a tool for compiling Soy/Closure Templates and converting them to CommonJs modules.
 
 This is done by using the latest SoyToJsSrcCompiler.jar (from the [closure-templates](https://www.npmjs.com/package/closure-templates) package) to compile your templates and then parsing the resulting js (using [Esprima](esprima.org)) and removing and/or replacing calls to goog.(require|provide|module|DEBUG).
 
